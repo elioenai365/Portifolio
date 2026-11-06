@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class areaQuadrado{
+
+    public static void main (String[] args)
+    {
+        Scanner scanner= new Scanner(System.in)
+
+        System.out.println("Informe a base do retangulo");
+        int a= System.nextInt();
+        System.out.println("Informe a altura do retangulo");
+        int b = System.nextInt();
+
+        int area = a*b;
+
+        System.out.printf("A area do retangulo é:%d",area);
+        
+
+
+    }
+}
+
+
+
+
