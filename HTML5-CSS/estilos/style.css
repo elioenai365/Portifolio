@@ -45,7 +45,7 @@ header{
 nav#menu ul{
 
   list-style: none;
-  display: none;
+  display: flex;
   gap: 10px;
 }
 
@@ -82,7 +82,7 @@ section#ficha{
 
 section#ficha img.foto{
 
-  width: 200 px;
+  width: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
   overflow: hidden;
@@ -142,8 +142,8 @@ article h2{
 .video-container{
   position: relative;
   width: 100%;
-  margin: auto;
-  aspect-ratio: 16/9;
+  margin: 16/9;
+  aspect-ratio: auto;
   border: 5px solid red ;
 
 }

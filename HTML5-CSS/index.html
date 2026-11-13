@@ -2,80 +2,67 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width-device-width, 
-    initial=scale-1.0">
-    <title>
-
-        Teste
-
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
     <script src="https://kit.fontawesome.com/ca71d7f201.js" crossorigin="anonymous"></script>
-
-
 </head>
 <body>
-    <header>
-        <nav id="menu"></nav>
+   <header>
+        <nav id="menu" aria-label="Menu principal">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#" aria-label="Início"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#" aria-label="Cérebro / Habilidades"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#" aria-label="Formação"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#" aria-label="Projetos"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" aria-label="Tema escuro"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
         <section id="ficha">
-            <img src="imagens/guanabara-perfil.png" alt="Elioenai de Jesus" class="foto">
-            <h1> Elioenai Santana</h1>
-            <p> Formado em Sistema de informação, com ampla 
-                formação na área de tecnologia da informação, computação em nuvem
-                Apaixonado por tecnologia e sempre em busca de novos desafios.
+            <img src="imagens/guanabara-perfil.png" alt="Elioenai Santana" class="foto">
+            <h1>Elioenai Santana</h1>
+            <p> 
+                Formado em Sistemas de Informação, com ampla formação na área de tecnologia da informação e computação em nuvem. 
+                Apaixonado por tecnologia e sempre em busca de novos desafios. 
                 Atualmente atuo como desenvolvedor em projetos pessoais.
             </p>
             <div id="social">
-                <a href="https://www.linkedin.com/in/elioenai-santana-b501a9210/"target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/elioenai365/Portifolio" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-solid fa-globe"></i></a>
+                <a href="https://www.linkedin.com/in/elioenai-santana-b501a9210/" target="_blank" rel="nofollow" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/elioenai365/Portifolio" target="_blank" rel="nofollow" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Site pessoal"><i class="fa-solid fa-globe"></i></a>
             </div>
-
         </section>
 
         <section id="detalhes">
             <article id="video">
-                <h2><i class="fa-solid fa-handshake"></i>Deixe-me Apresentar</h2>
-                <h2><img src="C:\Users\TST Multicom\Desktop\projetos\Portifolio\HTML5-CSS\imagens\projeto-01-videos.jpg"></h2>
-            </article><!--fim video-->
+                <h2><i class="fa-solid fa-handshake"></i> Deixe-me Apresentar</h2>
+                <img src="imagens/projeto-01-videos.jpg" alt="Prévia do vídeo de apresentação">
+            </article><!--Fim video-->
+
             <article id="skills">
-                <h2><i class="fa-solid fa-brain"></i>
-                    Minhas Skills
-                </h2>
-            </article><!--fim skills-->
+                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+            </article><!--Fim skills-->
+
             <article id="formacao">
-                <h2><i class="fa-solid fa-graduation-cap"></i>Minha Formação</h2>
-            </article><!--fim formacao-->
+                <h2><i class="fa-solid fa-graduation-cap"></i> Minha Formação</h2>
+            </article><!--Fim formacao-->
+
             <article id="projetos">
-                <h2><i class="fa-solid fa-trowel-bricks"></i>Meus Projetos</h2>
-            </article><!--fim projeto-->
-
+                <h2><i class="fa-solid fa-trowel-bricks"></i> Meus Projetos</h2>
+            </article><!--Fim projeto-->
         </section>
-
     </main>
 
     <footer>
-
-
+        <!-- Rodapé -->
     </footer>
 
     <script src="scripts/script.js"></script>
-
 </body>
-
-
 </html>
