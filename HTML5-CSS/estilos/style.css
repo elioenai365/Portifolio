@@ -142,9 +142,12 @@ article h2{
 .video-container{
   position: relative;
   width: 100%;
-  margin: 16/9;
-  aspect-ratio: auto;
+  max-width: 315px;
+  margin: 16px auto;
+  aspect-ratio: 16/9;
   border: 5px solid red ;
+  overflow: hidden;
+  border-radius: 8px;
 
 }
 
@@ -155,7 +158,7 @@ article h2{
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border: 0;
 }
 
 #skill-container{
